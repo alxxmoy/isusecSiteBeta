@@ -133,6 +133,7 @@ p {
     line-height: 2;
 }
 .topbar {
+    -webkit-mask-image: linear-gradient(to right, transparent, white 0, white 90%, transparent);        
     height: 2.5em;
     display: flex;
     overflow-x: auto;
