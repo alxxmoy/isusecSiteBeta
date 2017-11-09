@@ -9,4 +9,14 @@ permalink: resources
 2. ...
 3. Profit
 
-`while(true) { doThings() }`
+{% highlight javascript %}
+
+console.log("I");
+
+setTimeout(function() {
+    console.log("Sec")
+}, 0);
+
+console.log("SU");
+
+{% endhighlight %}
