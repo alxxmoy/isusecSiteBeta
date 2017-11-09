@@ -133,15 +133,17 @@ p {
     line-height: 2;
 }
 .topbar {
+    height: 2.5em;
     display: flex;
-    justify-content: space-between;
+    overflow-x: auto;
+    flex-direction: row;
 }
 .topbar a {
-    text-decoration: none;
     color: #b0bec5;
+    text-decoration: none;
     transition-duration: .2s;
 }
-.topbar .left a {
+.topbar a {
     margin: 0 2em 0 0;    
 }
 .topbar a:hover {
