@@ -1,7 +1,6 @@
 function openNav() {
-    document.getElementById("mySidenav").classList.toggle("sidenav-opened");      
-}
+    document.getElementById("mySidenav").classList.toggle("ghost"); 
 
-function closeNav() {
-    document.getElementById("mySidenav").classList.toggle("sidenav-opened");      
+    let menuButton = document.getElementById("menu-button");
+    menuButton.innerHTML = menuButton.innerHTML == "☰" ? "×" : "☰";
 }
