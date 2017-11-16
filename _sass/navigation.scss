@@ -3,14 +3,16 @@
     display: flex;
     overflow-x: auto;
     flex-direction: row;
-    -webkit-mask-image: linear-gradient(to right, transparent, white 0, white 90%, transparent);  
+    -webkit-mask-image: linear-gradient(to right, transparent, white 0, white 90%, transparent);
 }
+
 .navbar a {
     color: $secondary;
     margin: 0 2em 0 0;
     text-decoration: none;
     transition-duration: .2s;
 }
+
 .navbar a:hover {
     color: white;
 }
