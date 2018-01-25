@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: lesson
 permalink: lessons
 ---
 # Lessons
