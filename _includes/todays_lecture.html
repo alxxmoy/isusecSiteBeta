@@ -1,0 +1,9 @@
+{% assign most_recent_lesson = site.posts[0] %}
+<div class="bang">
+    <span class="post-meta">Today's Lesson</span>
+    <a class="post-link" href="{{ most_recent_lesson.url | prepend: site.baseurl }}">{{ most_recent_lesson.title }}</a>
+    <span class="post-excerpt">
+        {{ most_recent_lesson.excerpt }}
+    </span>
+    <a class="clickable" href="{{ "/overview" | relative_url }}">Previous lessons</a>
+</div>

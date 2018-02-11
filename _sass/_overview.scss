@@ -1,0 +1,20 @@
+.post-meta {
+    display: block;
+    text-transform: uppercase;
+}
+
+.post-link {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    background: linear-gradient(to top, $highlight 20%, transparent 20%);
+}
+
+.post-link:hover {
+    background: $highlight;
+}
+
+.post-excerpt p {
+    margin-top: 0;
+}

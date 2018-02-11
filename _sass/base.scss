@@ -5,13 +5,17 @@ body {
     font-family: $font-stack;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: .5rem 0;
+}
+
 h1 {
     font-size: 2.5em;
 }
 
 p {
-    line-height: 2;
-    font-size: 1.2em;
+    line-height: 1.7;
+    font-size: 1.1em;
 }
 
 li {
@@ -24,8 +28,26 @@ figure {
     font-family: $font-stack-mono;
 }
 
+.monospace {
+    font-family: 'Inconsolata';
+}
+
+.bang {
+    margin-bottom: 1em;
+    padding: 1em;
+    background: $dark;
+}
+
 a {
-    color: $highlight;
+    // padding: 2px 0;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background: linear-gradient(to top, $highlight 15%, transparent 15%);
+}
+
+a:hover {
+    background: $highlight;
 }
 
 .container {
