@@ -28,8 +28,9 @@
 }
 
 #search .typeahead {
+    font-size: 1.1rem;
     width: 100%;
-    padding: 5px;
+    padding: 7px;
     border-radius: 2px;
     border: 2px solid $secondary;
     background: $secondary;
@@ -37,5 +38,6 @@
 }
 
 #search .typeahead:focus {
+    outline: none;
     background: white !important;
 }
