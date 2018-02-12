@@ -42,3 +42,7 @@
     outline: none;
     border-color: white;
 }
+
+.typeahead::placeholder {
+    color: $secondary;
+}
