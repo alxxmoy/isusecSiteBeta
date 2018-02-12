@@ -1,0 +1,41 @@
+#search {
+    margin: 1em 0;
+}
+
+.twitter-typeahead {
+    width: 100%;
+}
+
+.tt-menu {
+    width: 100%;
+    color: black;
+    background: white;
+}
+
+.tt-suggestion {
+    padding: .5em;
+}
+
+.tt-cursor {
+    color: white;
+    background: $highlight;
+}
+
+.tt-suggestion:hover {
+    color: white;
+    background: $dark;
+    cursor: pointer;
+}
+
+#search .typeahead {
+    width: 100%;
+    padding: 5px;
+    border-radius: 2px;
+    border: 2px solid $secondary;
+    background: $secondary;
+    color: black;
+}
+
+#search .typeahead:focus {
+    background: white !important;
+}

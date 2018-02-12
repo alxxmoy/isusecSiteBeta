@@ -1,9 +1,10 @@
-.navbar {
-    height: 2.5em;
-    display: flex;
-    overflow-x: auto;
-    flex-direction: row;
-    -webkit-mask-image: linear-gradient(to right, transparent, white 0, white 90%, transparent);
+@media(min-width: 700px) {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 .navbar a {

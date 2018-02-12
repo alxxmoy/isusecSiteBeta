@@ -1,7 +1,12 @@
 <div class="navbar">
-    <a href="{{ "/" | relative_url }}">ISUSec</a>
-    <a href="{{ "/overview" | relative_url }}">Overview</a>
-    <a href="{{ "/resources" | relative_url }}">Resources</a>
-    <a href="https://github.com/ISUSec">Github</a>
-    <a href="https://ctf.isusec.com">CTF</a>                    
+    <span class="nav-links">
+        <a href="{{ "/" | relative_url }}">ISUSec</a>
+        <a href="{{ "/overview" | relative_url }}">Overview</a>
+        <!-- <a href="{{ "/resources" | relative_url }}">Resources</a> -->
+        <a href="https://github.com/ISUSec">Github</a>
+        <a href="https://ctf.isusec.com">CTF</a>   
+    </span>
+    <div id="search">
+        <input class="typeahead" type="text" placeholder="Search lessons">
+    </div>           
 </div>

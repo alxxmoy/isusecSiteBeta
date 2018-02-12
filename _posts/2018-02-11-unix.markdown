@@ -1,0 +1,8 @@
+---
+layout: base
+title:  "Unix"
+date:   2018-02-11 13:25:05 -0600
+categories: jekyll update
+permalink: unix
+---
+Unix (/ˈjuːnɪks/; trademarked as UNIX) is a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, development starting in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others.[3]

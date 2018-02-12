@@ -1,0 +1,11 @@
+---
+---
+{% capture posts %}
+{
+{% for post in site.posts %}
+"{{ post.title }}": "{{ post.url | relative_url }}"
+{% if forloop.last %}{% else %},{% endif %}
+{% endfor %}
+}
+{% endcapture %}
+var posts = {{posts | strip_newlines}}
