@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: lesson
 title:  "Cross Site Scripting"
 date:   2018-01-25 13:25:05 -0600
 categories: jekyll update
